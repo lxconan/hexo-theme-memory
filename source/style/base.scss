@@ -58,6 +58,12 @@ main.pagecenter {
   display: flex;
   justify-content: center;
   align-items: center;
+
+  > img {
+    width: 80%;
+    max-width: 883px;
+    height: auto;
+  }
 }
 
 ::-moz-selection {
