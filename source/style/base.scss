@@ -48,6 +48,18 @@ body {
   }
 }
 
+main.pagecenter {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 ::-moz-selection {
   background: rgba(lighten($material-orange, 15%), 70%);
   color: darken($text-color, 20%);
